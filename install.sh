@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BUILD_BASE=`pwd`
-NV_FILE="{这里改成自己下载的.run文件名（之前安装过的）}.run" 
+NV_FILE="{之前在非实时内核安装过的.run文件名}.run" 
 NEED_TO_COMPILE_NV_KO=1
 
 function clean_env() {
